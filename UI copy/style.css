@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    /* background-color: #003060; */
+    background-color: #003161;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+.heading-container{
+    background-color:#041F60;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.mid-card{
+    padding:10px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #041F60;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #041F60;
+    border-style: solid;
+   padding-top: 2px;
+   padding-bottom: 2px;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .card-button {
+    margin-top: 10px;
+    background-color: #45a049;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  .card-button:hover {
+    margin-top: 10px;
+    background: #45a049;
+    color: #fff;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #45a049, 0 0 25px #45a049, 0 0 50px #45a049,
+      0 0 100px #45a049;
+  }
+  .card-button:hover + .para-heading {
+    background-color: black;
+    color: white;
+  }
+  .card-button span {
+    position: absolute;
+    display: block;
+  }
+  .card-button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+  
+  .card-button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #45a049);
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,
+    100% {
+      top: 100%;
+    }
+  }
+  
+  .card-button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #45a049);
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,
+    100% {
+      right: 100%;
+    }
+  }
+  
+  .card-button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #45a049);
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,
+    100% {
+      bottom: 100%;
+    }
+  } */
